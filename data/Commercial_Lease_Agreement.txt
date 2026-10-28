@@ -1,0 +1,88 @@
+COMMERCIAL LEASE AGREEMENT
+
+This Commercial Lease Agreement ("Agreement") is made and entered into as of the 10th day of October, 2026, by and between Horizon Realty Group Private Limited, a company incorporated under the Companies Act, 2013, having its registered office at Tower A, Cyber Hub, Gurugram, Haryana 122002 ("Landlord"), and TechVista Solutions Private Limited, a company incorporated under the Companies Act, 2013, having its registered office at 5th Floor, Prestige Tower, Bangalore 560001 ("Tenant").
+
+WHEREAS, Landlord is the owner of certain commercial real property located at Unit 301-305, Infinity IT Park, Hinjawadi Phase II, Pune, Maharashtra 411057 (the "Premises"); and
+
+WHEREAS, Tenant desires to lease the Premises from Landlord for the purpose of establishing and operating a software development center; and
+
+NOW THEREFORE, in consideration of the mutual covenants and agreements herein contained, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+Section 1. PARTIES AND RECITALS
+The Landlord, Horizon Realty Group Private Limited, hereby leases to TechVista Solutions Private Limited (the Tenant), and Tenant hereby leases from Landlord, the commercial property described above, subject to the terms and conditions set forth in this Agreement.
+
+Section 2. PREMISES AND PERMITTED USE
+2.1 The Premises comprises approximately 12,500 square feet of Grade A commercial office space located on the third floor of Infinity IT Park, Hinjawadi Phase II, Pune.
+2.2 The Premises shall be used exclusively for information technology services, software development, and related administrative activities. Any change in the nature of use shall require the prior written consent of the Landlord.
+2.3 Tenant shall not use the Premises for any unlawful purpose or in violation of any applicable laws, rules, or regulations.
+
+Section 3. TERM AND DURATION
+3.1 The initial term of this Lease shall be for a period of thirty-six (36) months, commencing on November 1, 2026, and expiring on October 31, 2029 (the "Initial Term").
+3.2 This Agreement shall automatically renew for additional twelve-month terms unless either party provides written notice of non-renewal at least sixty (60) days prior to the expiration of the then-current term.
+
+Section 4. RENT AND PAYMENT TERMS
+4.1 Base Rent: Tenant shall pay to Landlord a monthly base rent of INR 8,75,000 (Rupees Eight Lakhs Seventy-Five Thousand Only), exclusive of Goods and Services Tax (GST), payable in advance on or before the 5th day of each calendar month.
+4.2 Escalation: The base rent shall increase by 8% per annum at the beginning of each subsequent year of the lease term.
+4.3 Late Payment: In the event that any installment of rent is not received by the Landlord within 10 days after the due date, Tenant shall pay a late fee of 2% per month compounding on the outstanding amount until full payment is received.
+4.4 Payment of rent shall be made via electronic bank transfer to the account designated by the Landlord.
+4.5 Security Deposit: Upon execution of this Lease, Tenant shall deposit with Landlord the sum of INR 52,50,000 (Rupees Fifty-Two Lakhs Fifty Thousand Only), equivalent to six months base rent, as a Security Deposit.
+
+Section 5. SECURITY DEPOSIT
+5.1 The Security Deposit shall be held by the Landlord as security for the faithful performance by Tenant of all the terms, covenants, and conditions of this Lease.
+5.2 Landlord may deduct from the Security Deposit at its sole discretion any amounts required to repair damages to the Premises beyond normal wear and tear, unpaid rent, unpaid utilities, or any breach of this Agreement.
+5.3 The Security Deposit, or any balance remaining after deductions, shall be returned to Tenant. No specific timeline for refund is guaranteed by the Landlord.
+5.4 The Security Deposit shall not bear any interest.
+
+Section 6. MAINTENANCE AND REPAIRS
+6.1 Tenant shall be responsible for all interior maintenance, including but not limited to painting, electrical systems, plumbing, HVAC servicing, and general upkeep of the Premises during the term of tenancy.
+6.2 Landlord shall be responsible for structural repairs, external facades, and common area maintenance (CAM).
+6.3 Tenant shall maintain the Premises in good and tenantable condition and shall not make any structural alterations without the prior written consent of the Landlord.
+
+Section 7. TERMINATION AND DEFAULT
+7.1 Landlord may terminate this Lease immediately without cause upon providing 24 hours verbal or written notice to Tenant at the Landlord's sole discretion. No compensation shall be payable to Tenant upon such termination.
+7.2 Tenant may terminate this Lease only upon ninety (90) days prior written notice and payment of an early termination penalty equal to six (6) months base rent.
+7.3 In the event of a material breach by Tenant, Landlord may terminate this Lease without providing any cure period.
+7.4 Upon termination or expiration, Tenant shall vacate the Premises within 7 calendar days and restore the Premises to its original condition at Tenant's sole expense.
+
+Section 8. INDEMNIFICATION AND LIABILITY
+8.1 Tenant shall indemnify, defend, and hold harmless Landlord, its officers, directors, employees, agents, and assigns from and against any and all claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys fees) arising out of or in connection with Tenants use and occupancy of the Premises, regardless of cause or Landlords negligence.
+8.2 Tenants liability under this Agreement shall be unlimited and shall cover all direct, indirect, consequential, punitive, and special damages without any cap or limitation.
+8.3 Landlords aggregate liability under this Agreement for any claims shall not exceed the amount of one months rent.
+
+Section 9. INSURANCE
+9.1 Tenant shall maintain at all times during the term of this Lease comprehensive general liability insurance with a minimum coverage of INR 2,00,00,000 (Rupees Two Crore Only), naming Landlord as an additional insured.
+9.2 Tenant shall also maintain property insurance covering the full replacement value of Tenants personal property, fixtures, and improvements within the Premises.
+9.3 Certificates of insurance shall be provided to Landlord prior to occupancy and upon each renewal.
+
+Section 10. CONFIDENTIALITY
+10.1 Each party agrees to maintain the confidentiality of the terms and conditions of this Agreement and shall not disclose any financial terms, rental amounts, or deposit details to any third party without the prior written consent of the other party, except as required by law.
+10.2 The obligations of confidentiality under this section shall survive the termination or expiration of this Lease for a period of three (3) years.
+
+Section 11. GOVERNING LAW AND JURISDICTION
+11.1 This Agreement shall be governed by and construed in accordance with the laws of India.
+11.2 Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts in Pune, Maharashtra.
+
+Section 12. NOTICES
+12.1 All notices, requests, demands, and other communications under this Agreement shall be in writing and shall be deemed to have been duly given when delivered personally, sent by registered post with acknowledgement due, or sent via email with read receipt confirmation.
+12.2 Notices to Landlord: Horizon Realty Group Pvt. Ltd., Tower A, Cyber Hub, Gurugram, Haryana 122002, Email: legal@horizonrealty.in
+12.3 Notices to Tenant: TechVista Solutions Pvt. Ltd., 5th Floor, Prestige Tower, Bangalore 560001, Email: contracts@techvista.in
+
+Section 13. ASSIGNMENT AND SUBLETTING
+13.1 Tenant shall not assign this Lease or sublet the whole or any part of the Premises without the prior written consent of the Landlord, which consent may be withheld at the Landlords sole discretion without providing any reason.
+13.2 Any unauthorized assignment or subletting shall be void and shall constitute a material breach of this Lease.
+
+Section 14. ENTIRE AGREEMENT
+14.1 This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior negotiations, representations, warranties, commitments, offers, contracts, and writings relating to the subject matter of this Agreement.
+14.2 This Agreement may not be amended, modified, or supplemented except by a written instrument signed by both parties.
+
+IN WITNESS WHEREOF, the parties have executed this Commercial Lease Agreement as of the date first written above.
+
+LANDLORD: Horizon Realty Group Private Limited
+Authorized Signatory: ____________________
+Name: Rajesh Kumar Sharma
+Designation: Managing Director
+
+TENANT: TechVista Solutions Private Limited
+Authorized Signatory: ____________________
+Name: Priya Nair
+Designation: Chief Executive Officer

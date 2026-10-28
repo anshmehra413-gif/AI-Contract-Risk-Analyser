@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LexiRisk AI | Legal Contract Analysis & Risk Detection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+        <div class="header-container">
+            <div class="brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-title">LexiRisk <span class="ai-badge">AI</span></span>
+                    <span class="brand-sub">Legal Contract Analysis & Risk Detection</span>
+                </div>
+            </div>
+            
+            <nav class="nav-links">
+                <button class="nav-btn active" data-tab="upload-tab" id="nav-upload-btn">
+                    <i class="fa-solid fa-cloud-arrow-up"></i> Upload & Screen
+                </button>
+                <button class="nav-btn" data-tab="dashboard-tab" id="nav-dashboard-btn" disabled>
+                    <i class="fa-solid fa-chart-pie"></i> Risk Dashboard
+                </button>
+                <button class="nav-btn" data-tab="analysis-tab" id="nav-analysis-btn" disabled>
+                    <i class="fa-solid fa-list-check"></i> Clause Inspector
+                </button>
+                <button class="nav-btn" data-tab="history-tab" id="nav-history-btn">
+                    <i class="fa-solid fa-database"></i> Contract History
+                </button>
+                <button class="nav-btn" data-tab="architecture-tab" id="nav-arch-btn">
+                    <i class="fa-solid fa-diagram-project"></i> Architecture
+                </button>
+            </nav>
+
+            <div class="header-actions">
+                <span class="status-indicator">
+                    <span class="status-dot"></span> System Ready
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="app-main">
+        <!-- Banner Alert: Academic Project Disclaimer -->
+        <div class="academic-banner">
+            <i class="fa-solid fa-circle-info"></i>
+            <span><strong>Academic / Student Prototype:</strong> AI-assisted contract understanding & risk analysis based on CUAD & ContractNLI methodology. Does not constitute formal legal advice.</span>
+        </div>
+
+        <!-- ================= VIEW 1: UPLOAD & DOMAIN SCREENING ================= -->
+        <section id="upload-tab" class="tab-content active">
+            <div class="view-header">
+                <h2>Contract Ingestion & Domain Screening</h2>
+                <p>Upload a contract in PDF, Word, or Text format, or test instantly with benchmark legal documents.</p>
+            </div>
+
+            <div class="upload-grid">
+                <!-- Dropzone Area -->
+                <div class="upload-card">
+                    <div class="dropzone" id="dropzone">
+                        <input type="file" id="file-input" accept=".pdf,.docx,.txt" style="display: none;">
+                        <div class="dropzone-icon">
+                            <i class="fa-solid fa-file-contract"></i>
+                        </div>
+                        <h3>Upload Legal Document</h3>
+                        <p>Drag and drop your file here, or <button type="button" class="btn-link" id="browse-btn">browse files</button></p>
+                        <div class="supported-formats">
+                            <span class="format-tag"><i class="fa-solid fa-file-pdf"></i> PDF</span>
+                            <span class="format-tag"><i class="fa-solid fa-file-word"></i> DOCX</span>
+                            <span class="format-tag"><i class="fa-solid fa-file-lines"></i> TXT</span>
+                            <span class="format-hint">Max file size: 25MB</span>
+                        </div>
+                    </div>
+
+                    <!-- Custom Text Input Accordion -->
+                    <div class="paste-section">
+                        <button class="paste-toggle-btn" id="paste-toggle-btn">
+                            <span><i class="fa-solid fa-pen-to-square"></i> Or paste contract text directly</span>
+                            <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                        </button>
+                        <div class="paste-drawer" id="paste-drawer">
+                            <textarea id="pasted-text" placeholder="Paste full contract text here with clauses, numbered sections, or covenants..."></textarea>
+                            <div class="paste-actions">
+                                <button class="btn btn-secondary btn-sm" id="clear-paste-btn">Clear</button>
+                                <button class="btn btn-primary btn-sm" id="analyze-pasted-btn">Analyze Pasted Text</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Preloaded Sample Contracts Panel -->
+                <div class="samples-card">
+                    <div class="samples-header">
+                        <h3><i class="fa-solid fa-flask"></i> Benchmark Test Samples</h3>
+                        <span class="samples-badge">1-Click Demonstration</span>
+                    </div>
+                    <p class="samples-sub">Test the complete end-to-end pipeline across supported legal domains and the domain rejection safeguard.</p>
+
+                    <div class="samples-list" id="samples-container">
+                        <!-- Populated by JS -->
+                        <div class="loading-spinner"><i class="fa-solid fa-circle-notch fa-spin"></i> Loading test contracts...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Supported Domains Banner -->
+            <div class="domains-info-card">
+                <h4><i class="fa-solid fa-shield-halved"></i> Active Domain Screening Filter (Section 4)</h4>
+                <div class="domains-grid">
+                    <div class="domain-pill">
+                        <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                        <div>
+                            <strong>Legal & Contract Law</strong>
+                            <span>NDAs, MSAs, Service, Employment, Commercial</span>
+                        </div>
+                    </div>
+                    <div class="domain-pill">
+                        <i class="fa-solid fa-building"></i>
+                        <div>
+                            <strong>Real Estate Law</strong>
+                            <span>Residential Leases, Property Sale, Transfer, Deeds</span>
+                        </div>
+                    </div>
+                    <div class="domain-pill">
+                        <i class="fa-solid fa-helmet-safety"></i>
+                        <div>
+                            <strong>Construction Law</strong>
+                            <span>Subcontractor, EPC, Works, Delay Damages</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= VIEW 2: PROCESSING PIPELINE STEPPER ================= -->
+        <section id="processing-view" class="tab-content" style="display: none;">
+            <div class="processing-card">
+                <div class="processing-header">
+                    <div class="pulse-ring">
+                        <i class="fa-solid fa-gear fa-spin"></i>
+                    </div>
+                    <h2>Executing End-to-End Analysis Pipeline</h2>
+                    <p id="processing-filename">Analyzing document...</p>
+                </div>
+
+                <!-- Pipeline Stepper (Section 2.2 Figure 1) -->
+                <div class="stepper-container">
+                    <div class="stepper-step" id="step-1">
+                        <div class="step-circle"><i class="fa-solid fa-file-check"></i></div>
+                        <div class="step-label">File Validation</div>
+                    </div>
+                    <div class="stepper-line" id="line-1"></div>
+                    <div class="stepper-step" id="step-2">
+                        <div class="step-circle"><i class="fa-solid fa-align-left"></i></div>
+                        <div class="step-label">Text Extraction</div>
+                    </div>
+                    <div class="stepper-line" id="line-2"></div>
+                    <div class="stepper-step" id="step-3">
+                        <div class="step-circle"><i class="fa-solid fa-filter"></i></div>
+                        <div class="step-label">Domain Screening</div>
+                    </div>
+                    <div class="stepper-line" id="line-3"></div>
+                    <div class="stepper-step" id="step-4">
+                        <div class="step-circle"><i class="fa-solid fa-scissors"></i></div>
+                        <div class="step-label">Clause Segmentation</div>
+                    </div>
+                    <div class="stepper-line" id="line-4"></div>
+                    <div class="stepper-step" id="step-5">
+                        <div class="step-circle"><i class="fa-solid fa-tags"></i></div>
+                        <div class="step-label">CUAD Classification</div>
+                    </div>
+                    <div class="stepper-line" id="line-5"></div>
+                    <div class="stepper-step" id="step-6">
+                        <div class="step-circle"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                        <div class="step-label">Risk Engine</div>
+                    </div>
+                    <div class="stepper-line" id="line-6"></div>
+                    <div class="stepper-step" id="step-7">
+                        <div class="step-circle"><i class="fa-solid fa-calculator"></i></div>
+                        <div class="step-label">Risk Fusion & Scoring</div>
+                    </div>
+                    <div class="stepper-line" id="line-7"></div>
+                    <div class="stepper-step" id="step-8">
+                        <div class="step-circle"><i class="fa-solid fa-brain"></i></div>
+                        <div class="step-label">LLM Explainability</div>
+                    </div>
+                </div>
+
+                <div class="processing-status-box">
+                    <span id="step-status-text">Validating document format and extractable text layer...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= VIEW 3: EXECUTIVE RISK DASHBOARD ================= -->
+        <section id="dashboard-tab" class="tab-content">
+            <div class="dashboard-topbar">
+                <div class="doc-meta">
+                    <h2 id="dash-filename">Rental_Agreement.pdf</h2>
+                    <div class="doc-meta-tags">
+                        <span class="meta-tag" id="dash-domain-tag"><i class="fa-solid fa-building"></i> Real Estate Law</span>
+                        <span class="meta-tag" id="dash-type-tag"><i class="fa-solid fa-file-contract"></i> Lease Agreement</span>
+                        <span class="meta-tag confidence" id="dash-conf-tag"><i class="fa-solid fa-circle-check"></i> 94% Confidence</span>
+                    </div>
+                </div>
+                <div class="doc-actions">
+                    <button class="btn btn-secondary" id="btn-export-pdf"><i class="fa-solid fa-print"></i> Print / PDF Report</button>
+                    <button class="btn btn-secondary" id="btn-export-json"><i class="fa-solid fa-code"></i> JSON</button>
+                    <button class="btn btn-primary" id="btn-view-clauses"><i class="fa-solid fa-magnifying-glass"></i> Inspect Clauses</button>
+                </div>
+            </div>
+
+            <!-- Dashboard Metric Grid -->
+            <div class="metric-grid">
+                <!-- Overall Risk Score Card -->
+                <div class="score-card">
+                    <div class="card-header-sm">
+                        <span>OVERALL RISK ASSESSMENT</span>
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <div class="score-display">
+                        <div class="score-number-box">
+                            <span class="score-value" id="dash-overall-score">68</span>
+                            <span class="score-max">/100</span>
+                        </div>
+                        <div class="score-badge-box">
+                            <span class="risk-badge badge-high" id="dash-risk-tier">HIGH RISK</span>
+                            <span class="score-formula-hint">Normalized Multi-Factor Score</span>
+                        </div>
+                    </div>
+                    <div class="score-bar-track">
+                        <div class="score-bar-fill fill-high" id="dash-score-bar" style="width: 68%;"></div>
+                    </div>
+                    <div class="score-ranges">
+                        <span>0 Low 30</span>
+                        <span>31 Medium 60</span>
+                        <span>61 High 100</span>
+                    </div>
+                </div>
+
+                <!-- Risk Count Breakdown Card -->
+                <div class="counts-card">
+                    <div class="card-header-sm">
+                        <span>RISK TAXONOMY (SECTION 10.1)</span>
+                        <i class="fa-solid fa-shield-virus"></i>
+                    </div>
+                    <div class="count-pills">
+                        <div class="count-pill pill-high">
+                            <div class="count-num" id="dash-count-high">2</div>
+                            <div class="count-label">High Risk Clauses</div>
+                        </div>
+                        <div class="count-pill pill-med">
+                            <div class="count-num" id="dash-count-med">2</div>
+                            <div class="count-label">Medium Risk</div>
+                        </div>
+                        <div class="count-pill pill-low">
+                            <div class="count-num" id="dash-count-low">1</div>
+                            <div class="count-label">Low Ambiguities</div>
+                        </div>
+                    </div>
+                    <div class="clause-stats-row">
+                        <span><i class="fa-solid fa-layer-group"></i> Total Clauses: <strong id="dash-total-clauses">8</strong></span>
+                        <span><i class="fa-solid fa-file"></i> Document Pages: <strong id="dash-total-pages">1</strong></span>
+                    </div>
+                </div>
+
+                <!-- Missing Clause Checklist Card (Section 10.2) -->
+                <div class="missing-card">
+                    <div class="card-header-sm">
+                        <span>MISSING CLAUSE AUDIT (SECTION 10.2)</span>
+                        <i class="fa-solid fa-clipboard-check"></i>
+                    </div>
+                    <div class="missing-header-stat">
+                        <div class="checklist-ratio">
+                            <span id="dash-missing-detected">11/12</span>
+                            <small>Required Clauses Found</small>
+                        </div>
+                        <div class="checklist-status" id="dash-missing-flag">
+                            <span class="missing-alert-badge"><i class="fa-solid fa-circle-exclamation"></i> 1 Missing Clause</span>
+                        </div>
+                    </div>
+                    <div class="missing-items-list" id="dash-missing-list">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Risk Fusion Breakdown (Section 11.3) -->
+            <div class="fusion-card">
+                <div class="fusion-header">
+                    <h3><i class="fa-solid fa-network-wired"></i> Hybrid Risk Fusion Model (Section 11.3)</h3>
+                    <code class="formula-code">Final Score = 0.40 &times; Rule + 0.30 &times; ML + 0.20 &times; LLM + 0.10 &times; Missing</code>
+                </div>
+                <div class="fusion-factors-grid">
+                    <div class="factor-item">
+                        <div class="factor-title">
+                            <span>Rule Engine Score</span>
+                            <strong id="fusion-rule-val">70.0</strong>
+                        </div>
+                        <div class="factor-bar"><div class="factor-fill" id="fusion-rule-bar" style="width: 70%;"></div></div>
+                        <span class="factor-contrib">Weight: 40% &bull; Contrib: <strong id="fusion-rule-contrib">+28.0</strong></span>
+                    </div>
+                    <div class="factor-item">
+                        <div class="factor-title">
+                            <span>Transformer/ML Score</span>
+                            <strong id="fusion-ml-val">65.0</strong>
+                        </div>
+                        <div class="factor-bar"><div class="factor-fill" id="fusion-ml-bar" style="width: 65%;"></div></div>
+                        <span class="factor-contrib">Weight: 30% &bull; Contrib: <strong id="fusion-ml-contrib">+19.5</strong></span>
+                    </div>
+                    <div class="factor-item">
+                        <div class="factor-title">
+                            <span>LLM Reasoning Assessment</span>
+                            <strong id="fusion-llm-val">75.0</strong>
+                        </div>
+                        <div class="factor-bar"><div class="factor-fill" id="fusion-llm-bar" style="width: 75%;"></div></div>
+                        <span class="factor-contrib">Weight: 20% &bull; Contrib: <strong id="fusion-llm-contrib">+15.0</strong></span>
+                    </div>
+                    <div class="factor-item">
+                        <div class="factor-title">
+                            <span>Missing Clause Score</span>
+                            <strong id="fusion-missing-val">15.0</strong>
+                        </div>
+                        <div class="factor-bar"><div class="factor-fill" id="fusion-missing-bar" style="width: 15%;"></div></div>
+                        <span class="factor-contrib">Weight: 10% &bull; Contrib: <strong id="fusion-missing-contrib">+1.5</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Executive Summary Card -->
+            <div class="summary-card">
+                <div class="card-header-sm">
+                    <span>AI-ASSISTED EXECUTIVE SUMMARY & REVIEW RECOMMENDATIONS</span>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <p id="dash-summary-text" class="summary-content">
+                    Loading executive summary...
+                </p>
+            </div>
+        </section>
+
+        <!-- ================= VIEW 4: DETAILED CLAUSE & RISK INSPECTOR ================= -->
+        <section id="analysis-tab" class="tab-content">
+            <div class="inspector-header">
+                <div>
+                    <h2>Clause Inspector & Evidence Chains</h2>
+                    <p>Inspect detected contract clauses, classified CUAD categories, highlighted evidence, and review guidance.</p>
+                </div>
+                <div class="inspector-filters">
+                    <div class="filter-group">
+                        <label>Filter by Risk:</label>
+                        <select id="filter-risk" class="select-control">
+                            <option value="ALL">All Risk Levels</option>
+                            <option value="High">High Risk Only</option>
+                            <option value="Medium">Medium Risk Only</option>
+                            <option value="Low">Low Risk Only</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>CUAD Category:</label>
+                        <select id="filter-category" class="select-control">
+                            <option value="ALL">All 15 Categories</option>
+                            <!-- Populated by JS -->
+                        </select>
+                    </div>
+                    <div class="search-group">
+                        <input type="text" id="search-clauses" class="search-input" placeholder="Search clause text...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="inspector-layout">
+                <!-- Left: Clause Directory List -->
+                <div class="clause-directory">
+                    <div class="directory-header">
+                        <span>Segmented Clauses (<span id="clause-list-count">0</span>)</span>
+                    </div>
+                    <div class="clause-items-scroll" id="clause-items-scroll">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Right: Detailed Evidence Chain Card (Section 11.1) -->
+                <div class="evidence-viewer" id="evidence-viewer">
+                    <div class="empty-selection-placeholder">
+                        <i class="fa-solid fa-arrow-pointer"></i>
+                        <h3>Select a clause from the left</h3>
+                        <p>Click on any clause in the list to inspect its classification, risk rules, and evidence chain.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= VIEW 5: CONTRACT DATABASE HISTORY ================= -->
+        <section id="history-tab" class="tab-content">
+            <div class="view-header">
+                <div>
+                    <h2>Database Records (Section 15)</h2>
+                    <p>All contracts, clauses, and risk findings persisted to SQLite database.</p>
+                </div>
+                <button class="btn btn-secondary btn-sm" id="btn-refresh-history">
+                    <i class="fa-solid fa-arrows-rotate"></i> Refresh Database
+                </button>
+            </div>
+
+            <div class="table-card">
+                <table class="contracts-table">
+                    <thead>
+                        <tr>
+                            <th>Document Name</th>
+                            <th>Contract Type</th>
+                            <th>Legal Domain</th>
+                            <th>Status</th>
+                            <th>Risk Score</th>
+                            <th>Risk Level</th>
+                            <th>Upload Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-table-body">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ================= VIEW 6: ARCHITECTURE & METHODOLOGY ================= -->
+        <section id="architecture-tab" class="tab-content">
+            <div class="view-header">
+                <h2>System Architecture & Methodology Guide</h2>
+                <p>Designed for academic presentation and mentor review as specified in the project proposal.</p>
+            </div>
+
+            <div class="arch-grid">
+                <!-- Pipeline Architecture Card -->
+                <div class="arch-card">
+                    <h3><i class="fa-solid fa-diagram-project"></i> End-to-End Processing Workflow</h3>
+                    <div class="arch-pipeline-flow">
+                        <div class="flow-node"><span>1. File Ingestion</span><small>PyMuPDF / docx / Text</small></div>
+                        <div class="flow-arrow">&darr;</div>
+                        <div class="flow-node"><span>2. Domain Screening</span><small>Accept / Reject / Warning</small></div>
+                        <div class="flow-arrow">&darr;</div>
+                        <div class="flow-node"><span>3. Clause Segmentation</span><small>Section & Heading Parser</small></div>
+                        <div class="flow-arrow">&darr;</div>
+                        <div class="flow-node"><span>4. Clause Classification</span><small>15 Target CUAD Categories</small></div>
+                        <div class="flow-arrow">&darr;</div>
+                        <div class="flow-node"><span>5. Hybrid Risk Engine</span><small>Rule Engine + Missing Clauses</small></div>
+                        <div class="flow-arrow">&darr;</div>
+                        <div class="flow-node"><span>6. Risk Fusion & Scoring</span><small>0.40R + 0.30M + 0.20L + 0.10M</small></div>
+                        <div class="flow-arrow">&darr;</div>
+                        <div class="flow-node"><span>7. Evidence & LLM Explainability</span><small>What / Why / Review Actions</small></div>
+                    </div>
+                </div>
+
+                <!-- Datasets Card -->
+                <div class="arch-card">
+                    <h3><i class="fa-solid fa-database"></i> Supervised Datasets (Section 5)</h3>
+                    <div class="dataset-box">
+                        <div class="dataset-badge primary">Primary Dataset</div>
+                        <h4>CUAD (Contract Understanding Atticus Dataset)</h4>
+                        <p>510 commercial contracts with 13,000+ expert annotations across 41 categories. System targets the core 15 clause categories (Termination, Liability, Indemnification, Governing Law, etc.).</p>
+                    </div>
+                    <div class="dataset-box" style="margin-top: 15px;">
+                        <div class="dataset-badge secondary">Secondary Dataset</div>
+                        <h4>ContractNLI</h4>
+                        <p>607 NDA-focused contracts with entailment/contradiction hypothesis annotations used for evidence retrieval and reasoning inspiration.</p>
+                    </div>
+
+                    <div class="disclaimer-callout" style="margin-top: 20px;">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span><strong>Mentor Review Note:</strong> The project positioning is strictly AI-assisted legal contract analysis. It does not replace a qualified lawyer or make autonomous legal judgments.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Out-of-Domain Rejection Modal (Section 4.1) -->
+    <div class="modal-backdrop" id="rejection-modal" style="display: none;">
+        <div class="rejection-modal-box">
+            <div class="modal-icon warning">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h3 id="modal-rejection-title">Document Not Accepted: Domain Screening</h3>
+            <p id="modal-rejection-msg">The uploaded document does not appear to belong to the supported legal domains.</p>
+            
+            <div class="supported-domains-box">
+                <h4>Supported Legal Domains:</h4>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> <strong>Legal and Contract Law:</strong> Sale, Service, Employment, NDA, Partnership</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Real Estate Law:</strong> Lease, Rental, Property Purchase, Title Transfer</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Construction Law:</strong> Contractor, Subcontractor, EPC, Work Orders</li>
+                </ul>
+            </div>
+
+            <div class="modal-actions">
+                <button class="btn btn-primary" id="btn-close-rejection-modal">Acknowledge & Try Another File</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

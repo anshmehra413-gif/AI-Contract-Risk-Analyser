@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pymupdf
+pypdf
+transformers
+torch
+scikit-learn
+streamlit
+requests
+numpy
+pandas
+python-docx
+joblib

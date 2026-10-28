@@ -1,0 +1,277 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2410 >>
+stream
+q 0.08 0.30 0.34 rg 0 778 612 14 re f Q
+q 0.89 0.94 0.93 rg 0 0 612 35 re f Q
+BT /F2 9 Tf 0.20 0.36 0.39 rg 48 750.0 Td (- LEXIRISK AI | PRESENTATION BULLET NOTES) Tj ET
+BT /F2 14 Tf 0.08 0.30 0.34 rg 48 735.0 Td (- PROJECT SNAPSHOT AND FEATURES) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 713.0 Td (- LexiRisk AI: academic prototype for AI-assisted legal contract analysis and preliminary risk) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 699.4 Td (  screening.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 685.8 Td (- Primary goal: turn uploaded contract text into clause-level findings, evidence, risk scores,) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 672.2 Td (  and review actions.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 658.6 Td (- Supported domains: general legal/commercial contracts, real estate, and construction.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 645.0 Td (- Document screening: accept, accept with warning, or reject likely out-of-domain documents.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 631.4 Td (- Ingestion: PDF, DOCX, and TXT are supported by the general upload endpoint; direct analysis) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 617.8 Td (  upload accepts PDF and TXT.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 604.2 Td (- Clause workflow: segment contract text, assign one of 15 clause categories, and retain page) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 590.6 Td (  and clause metadata.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 577.0 Td (- Risk workflow: rule checks, risk phrase matching, missing-clause checks, aggregate scoring,) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 563.4 Td (  explanations, and recommendations.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 549.8 Td (- Persistence and exports: save analyzed contracts, clauses, and risks in SQLite; retrieve) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 536.2 Td (  HTML and JSON reports.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 522.6 Td (- Demo options: bundled single-page web UI, Streamlit dashboard, and four built-in sample) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 509.0 Td (  documents.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 495.4 Td (- Safety position: screening aid only; not legal advice and not a replacement for qualified) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 481.8 Td (  counsel.) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 48 14 Td (- LEXIRISK AI | PROJECT BULLET NOTES) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 510 14 Td (- 1 / 7) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1982 >>
+stream
+q 0.08 0.30 0.34 rg 0 778 612 14 re f Q
+q 0.89 0.94 0.93 rg 0 0 612 35 re f Q
+BT /F2 9 Tf 0.20 0.36 0.39 rg 48 750.0 Td (- LEXIRISK AI | PRESENTATION BULLET NOTES) Tj ET
+BT /F2 14 Tf 0.08 0.30 0.34 rg 48 735.0 Td (- TECH STACK AND RUNTIME) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 713.0 Td (- Language: Python; current workspace interpreter is Python 3.13.4.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 699.4 Td (- API framework: FastAPI with Pydantic request models and Uvicorn as the ASGI server.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 685.8 Td (- Web interface: HTML, CSS, and JavaScript served as static assets by FastAPI.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 672.2 Td (- Demo interface: Streamlit with Requests for calls to the local API.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 658.6 Td (- Document parsing: pypdf for PDF text extraction; python-docx for DOCX paragraph extraction.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 645.0 Td (- Text and classification: Python regular expressions, phrase/heading signatures, and) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 631.4 Td (  scikit-learn TF-IDF.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 617.8 Td (- Numerical operations: NumPy; persistent storage: SQLite through Python's sqlite3 module.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 604.2 Td (- Declared requirements also include Transformers, Torch, PyMuPDF, pandas, and joblib.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 590.6 Td (    - The reviewed analysis path does not load BART, sentence-transformers, a trained) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 577.0 Td (      classifier, or a generative LLM.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 563.4 Td (- PDF text extraction is not OCR; image-only/scanned PDFs may produce no usable text.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 549.8 Td (- Upload limit in API handlers: 25 MB.) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 48 14 Td (- LEXIRISK AI | PROJECT BULLET NOTES) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 510 14 Td (- 2 / 7) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2568 >>
+stream
+q 0.08 0.30 0.34 rg 0 778 612 14 re f Q
+q 0.89 0.94 0.93 rg 0 0 612 35 re f Q
+BT /F2 9 Tf 0.20 0.36 0.39 rg 48 750.0 Td (- LEXIRISK AI | PRESENTATION BULLET NOTES) Tj ET
+BT /F2 14 Tf 0.08 0.30 0.34 rg 48 735.0 Td (- END-TO-END SYSTEM DESIGN) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 713.0 Td (- 1. User selects a PDF, DOCX, or TXT document, or chooses a sample contract.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 699.4 Td (- 2. FastAPI validates the upload and extracts page text with page numbers and paragraph data.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 685.8 Td (- 3. Preprocessing normalizes whitespace and removes simple page-number noise while preserving) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 672.2 Td (  structure.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 658.6 Td (- 4. Domain screening scores keyword signals and rejects clear non-legal/out-of-domain) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 645.0 Td (  content.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 631.4 Td (- 5. Clause segmentation detects headings, numbering, and paragraph boundaries.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 617.8 Td (- 6. Clause classification applies heading, keyword, and regular-expression signatures.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 604.2 Td (- 7. Risk modules identify risky terms and missing expected clauses, retaining evidence and) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 590.6 Td (  page context.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 577.0 Td (- 8. Scoring combines rule, category-density, heuristic assessment, and missing-clause) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 563.4 Td (  components.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 549.8 Td (- 9. Explanation templates produce plain-language summaries and suggested review actions.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 536.2 Td (- 10. Contract, clause, and risk records are saved; the API returns JSON for the UI and report) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 522.6 Td (  views.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 509.0 Td (- Design pattern: layered modular monolith; routers coordinate focused Python modules in one) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 495.4 Td (  FastAPI process.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 481.8 Td (- Primary data path: UI -> API router -> ingestion/preprocessing ->) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 468.2 Td (  screening/segmentation/classification -> risk/scoring -> SQLite -> JSON/report.) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 48 14 Td (- LEXIRISK AI | PROJECT BULLET NOTES) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 510 14 Td (- 3 / 7) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 2422 >>
+stream
+q 0.08 0.30 0.34 rg 0 778 612 14 re f Q
+q 0.89 0.94 0.93 rg 0 0 612 35 re f Q
+BT /F2 9 Tf 0.20 0.36 0.39 rg 48 750.0 Td (- LEXIRISK AI | PRESENTATION BULLET NOTES) Tj ET
+BT /F2 14 Tf 0.08 0.30 0.34 rg 48 735.0 Td (- API SURFACE AND DATA MODEL) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 713.0 Td (- POST /api/upload: validate and parse PDF, DOCX, or TXT; return cleaned text, page data, and) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 699.4 Td (  readability.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 685.8 Td (- POST /api/analyze: run the standard pipeline and return screening, clauses, risks, score,) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 672.2 Td (  and summary.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 658.6 Td (- POST /api/analyze/detailed: add keyword risk scores, matched factors, and a risk summary.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 645.0 Td (- POST /api/analyze/upload: accept PDF or TXT directly and run detailed analysis.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 631.4 Td (- POST /api/screen-domain: run domain screening without full analysis.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 617.8 Td (- GET /api/samples: return demo samples; GET /api/contracts and /api/contracts/{id}: browse) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 604.2 Td (  saved analyses.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 590.6 Td (- DELETE /api/contracts/{id}: delete a saved contract and related records.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 577.0 Td (- GET /api/reports/{id}/html and /json: retrieve printable HTML or structured JSON reports.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 563.4 Td (- SQLite location: backend/app/data/contracts.db.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 549.8 Td (- contracts table: file/type/domain/status/date, score, risk level, confidence, summary,) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 536.2 Td (  metadata, and text excerpt.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 522.6 Td (- clauses table: contract link, clause number/type/text, page, confidence, and character) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 509.0 Td (  offsets.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 495.4 Td (- risks table: contract/clause link, risk type/level, reason, evidence, recommendation, and) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 481.8 Td (  score weight.) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 48 14 Td (- LEXIRISK AI | PROJECT BULLET NOTES) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 510 14 Td (- 4 / 7) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 3005 >>
+stream
+q 0.08 0.30 0.34 rg 0 778 612 14 re f Q
+q 0.89 0.94 0.93 rg 0 0 612 35 re f Q
+BT /F2 9 Tf 0.20 0.36 0.39 rg 48 750.0 Td (- LEXIRISK AI | PRESENTATION BULLET NOTES) Tj ET
+BT /F2 14 Tf 0.08 0.30 0.34 rg 48 735.0 Td (- RISK AND EXPLAINABILITY METHODS) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 713.0 Td (- 15 classifier labels: Parties, Effective Date, Expiration Date, Termination, Notice,) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 699.4 Td (  Renewal, Payment, Penalties, Indemnification, Limitation of Liability, Governing Law,) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 685.8 Td (  Dispute Resolution, Assignment, Obligations, and Confidentiality.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 672.2 Td (- Clause labels come from rule-based signatures; confidence is a heuristic score, not a) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 658.6 Td (  calibrated model probability.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 645.0 Td (- Detailed risk patterns cover Termination, Indemnification, Payment, Confidentiality,) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 631.4 Td (  Liability, Force Majeure, Governing Law, Dispute Resolution, Penalties, and Renewal.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 617.8 Td (- Phrase tiers produce LOW, MEDIUM, or HIGH clause risk and record matched risk factors.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 604.2 Td (- Detailed missing-clause checks: Force Majeure and Limitation of Liability \(HIGH\); Dispute) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 590.6 Td (  Resolution and Confidentiality \(MEDIUM\).) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 577.0 Td (- Detailed overall risk: average clause risk plus missing-clause penalties, clamped to) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 563.4 Td (  0.0-1.0.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 549.8 Td (- Standard hybrid score: 0.40 rule score + 0.30 category-density score + 0.20 heuristic) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 536.2 Td (  assessment + 0.10 missing-clause score.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 522.6 Td (    - Standard score bands: Low below 31; Medium from 31 to below 61; High at 61 and) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 509.0 Td (      above, on a 0-100 scale.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 495.4 Td (- Evidence fields connect findings to clause text, page, triggered rule, reason, and) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 481.8 Td (  recommended review.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 468.2 Td (- The LLM analyzer module currently uses deterministic templates; the score component labeled) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 454.6 Td (  LLM is heuristic, not model inference.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 441.0 Td (- The embedding module uses TF-IDF vectors and cosine similarity; no transformer embeddings or) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 427.4 Td (  K-Means pipeline is wired into analysis.) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 48 14 Td (- LEXIRISK AI | PROJECT BULLET NOTES) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 510 14 Td (- 5 / 7) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 3168 >>
+stream
+q 0.08 0.30 0.34 rg 0 778 612 14 re f Q
+q 0.89 0.94 0.93 rg 0 0 612 35 re f Q
+BT /F2 9 Tf 0.20 0.36 0.39 rg 48 750.0 Td (- LEXIRISK AI | PRESENTATION BULLET NOTES) Tj ET
+BT /F2 14 Tf 0.08 0.30 0.34 rg 48 735.0 Td (- CODEBASE AND FILE STRUCTURE) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 713.0 Td (- mvpp/README.md: project overview, current architecture, setup, sample walkthrough, and) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 699.4 Td (  database schema.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 685.8 Td (- mvpp/legal_contract_risk_analyzer_mvp_prompt.md: feature requirements for a related/upgraded) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 672.2 Td (  MVP.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 658.6 Td (- mvpp/kilo_master_prompt.md: separate proposed transformer/LEDGAR ML design; treat as) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 645.0 Td (  planned, not current behavior.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 631.4 Td (- mvpp/streamlit_app.py: presentation demo UI that calls the FastAPI API.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 617.8 Td (- backend/app/main.py: FastAPI app, startup database initialization, router registration, and) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 604.2 Td (  static UI hosting.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 590.6 Td (- backend/app/api/: upload.py, analysis.py, contracts.py, and report.py define the HTTP) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 577.0 Td (  endpoints.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 563.4 Td (- backend/app/ingestion/: pdf_parser.py, docx_parser.py, and ocr.py handle) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 549.8 Td (  extraction/readability checks.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 536.2 Td (- backend/app/preprocessing/: cleaner.py and normalizer.py prepare and normalize contract) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 522.6 Td (  text.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 509.0 Td (- backend/app/screening/ and segmentation/: domain_classifier.py and clause_segmenter.py.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 495.4 Td (- backend/app/models/: clause_classifier.py, embeddings.py, and contract.py.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 481.8 Td (- backend/app/risk/: rules.py, detector.py, missing_clauses.py, and scorer.py.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 468.2 Td (- backend/app/llm/: prompts.py and analyzer.py provide disclaimers and deterministic) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 454.6 Td (  explanations.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 441.0 Td (- backend/app/database.py and app/crud/: SQLite persistence and contract CRUD helpers.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 427.4 Td (- backend/app/reports/generator.py: HTML report creation; backend/app/static/: index.html,) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 413.8 Td (  css/style.css, and js/app.js.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 400.2 Td (- backend/app/sample_contracts.py and backend/tests/test_pipeline.py: example contracts and) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 386.6 Td (  integration-style checks.) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 48 14 Td (- LEXIRISK AI | PROJECT BULLET NOTES) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 510 14 Td (- 6 / 7) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 3160 >>
+stream
+q 0.08 0.30 0.34 rg 0 778 612 14 re f Q
+q 0.89 0.94 0.93 rg 0 0 612 35 re f Q
+BT /F2 9 Tf 0.20 0.36 0.39 rg 48 750.0 Td (- LEXIRISK AI | PRESENTATION BULLET NOTES) Tj ET
+BT /F2 14 Tf 0.08 0.30 0.34 rg 48 735.0 Td (- SPEC STATUS AND PRESENTATION NOTES) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 713.0 Td (- Implemented and visible in code: three-domain screening, 15 signature-based clause labels,) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 699.4 Td (  risk rules, missing-clause checks, SQLite history, web UI, Streamlit demo, and HTML/JSON) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 685.8 Td (  reports.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 672.2 Td (- The README and current code include persistence and report exports; an older prompt lists) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 658.6 Td (  these as exclusions for a different MVP scope.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 645.0 Td (- Older prompts mention BART zero-shot classification, sentence-transformer embeddings, LEDGAR) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 631.4 Td (  training, K-Means, six domains, and a Next.js frontend.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 617.8 Td (    - Those older prompt items are not the active implementation inspected in) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 604.2 Td (      backend/app; avoid presenting them as working features.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 590.6 Td (- The college proposal DOCX could not be parsed as a valid DOCX archive; its contents were not) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 577.0 Td (  used as verified requirements.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 563.4 Td (- Demo examples: lease agreement, NDA, construction subcontract, and an academic paper used as) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 549.8 Td (  a rejection example.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 536.2 Td (- Recommended demo sequence: upload/select sample -> show screening -> inspect clause) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 522.6 Td (  categories -> open evidence/risk explanation -> show aggregate score -> browse saved) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 509.0 Td (  contract/report.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 495.4 Td (- Discuss limitations: heuristic classification/scoring, no OCR for scanned documents, no) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 481.8 Td (  external legal-data validation, and no legal advice.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 468.2 Td (- Run backend from mvpp root: python -m uvicorn backend.app.main:app --host 127.0.0.1 --port) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 454.6 Td (  8000 --reload.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 441.0 Td (- Open http://localhost:8000 for the bundled UI and http://localhost:8000/docs for interactive) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 427.4 Td (  API documentation.) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 413.8 Td (- Run the demo UI from mvpp root: streamlit run streamlit_app.py; keep the FastAPI server) Tj ET
+BT /F1 10 Tf 0.13 0.16 0.18 rg 48 400.2 Td (  running.) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 48 14 Td (- LEXIRISK AI | PROJECT BULLET NOTES) Tj ET
+BT /F1 8 Tf 0.20 0.36 0.39 rg 510 14 Td (- 7 / 7) Tj ET
+endstream
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000161 00000 n 
+0000000231 00000 n 
+0000000306 00000 n 
+0000000442 00000 n 
+0000002904 00000 n 
+0000003040 00000 n 
+0000005074 00000 n 
+0000005211 00000 n 
+0000007832 00000 n 
+0000007970 00000 n 
+0000010445 00000 n 
+0000010583 00000 n 
+0000013641 00000 n 
+0000013779 00000 n 
+0000017000 00000 n 
+0000017138 00000 n 
+trailer
+<< /Size 19 /Root 1 0 R >>
+startxref
+20351
+%%EOF

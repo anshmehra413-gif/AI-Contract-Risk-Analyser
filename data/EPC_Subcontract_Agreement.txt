@@ -1,0 +1,102 @@
+EPC CONSTRUCTION SUBCONTRACT AGREEMENT
+
+This EPC Construction Subcontract Agreement ("Agreement") is entered into as of October 12, 2026, by and between:
+
+BuildNation Infrastructure Limited, a company incorporated under the Companies Act, 2013, having its registered office at Plot No. 47, MIDC Industrial Area, Andheri East, Mumbai, Maharashtra 400093 ("General Contractor" or "GC"); and
+
+PrecisionBuild Engineering Works, a partnership firm registered under the Indian Partnership Act, 1932, having its principal place of business at Survey No. 112/A, Bavdhan, Pune, Maharashtra 411021 ("Subcontractor" or "SC").
+
+RECITALS
+
+WHEREAS, General Contractor has been awarded the contract for the construction of a 20-story mixed-use commercial and residential tower project known as "Skyline Pinnacle" located at Survey No. 45/2, Baner Road, Pune, Maharashtra 411045 (the "Project"); and
+
+WHEREAS, General Contractor desires to engage Subcontractor to perform certain specialized structural concrete and reinforcement works as part of the Project; and
+
+WHEREAS, Subcontractor represents that it has the necessary expertise, resources, personnel, and equipment to perform the work described herein;
+
+NOW THEREFORE, in consideration of the mutual promises and covenants contained herein, the parties agree as follows:
+
+Article 1. SCOPE OF WORK AND SPECIFICATIONS
+1.1 Subcontractor agrees to furnish all labor, materials, tools, equipment, and supervision necessary to complete the structural reinforced concrete package for floors 1 through 20 of the Skyline Pinnacle Project, in strict accordance with the project engineering drawings, structural specifications, and Bill of Quantities (BOQ) annexed hereto as Schedule A.
+1.2 The scope of work includes but is not limited to: formwork erection and dismantling, steel reinforcement cutting, bending and placement, ready-mix concrete pouring and curing, post-tensioning works, waterproofing of basement and podium levels, and quality testing as per IS Standards.
+1.3 Any variation or deviation from the approved scope of work shall require a written variation order signed by both parties prior to commencement of such additional work.
+
+Article 2. CONTRACT PRICE AND PAYMENT
+2.1 The total lump sum contract price for the complete scope of work described herein shall be INR 4,25,00,000 (Rupees Four Crore Twenty-Five Lakhs Only), inclusive of all applicable taxes except GST which shall be charged additionally at prevailing rates.
+2.2 Payment shall be made on a monthly running account basis against verified milestone progress certificates issued by the Project Architect and approved by the General Contractor.
+2.3 A retention money of 10% shall be deducted from each running account bill. 50% of the total retention shall be released upon issuance of the substantial completion certificate, and the remaining 50% shall be released upon expiry of the defects liability period.
+2.4 Payment of verified invoices shall be made within net 60 days from the date of submission of a complete and undisputed invoice along with all required supporting documentation.
+2.5 In the event General Contractor disputes any portion of an invoice, General Contractor shall pay the undisputed portion within the above timeline and notify Subcontractor of the disputed amount with written reasons.
+
+Article 3. TIME SCHEDULE AND MILESTONES
+3.1 Time is of the essence of this Agreement. Subcontractor shall commence work within 7 calendar days of receiving the Letter of Award and site possession.
+3.2 The total duration for completion of the scope of work shall be eighteen (18) months from the date of commencement.
+3.3 Subcontractor shall maintain a detailed construction program and shall submit monthly progress reports to the General Contractor demonstrating compliance with the agreed milestones.
+3.4 Subcontractor shall deploy adequate manpower, plant, and equipment to ensure adherence to the project schedule at all times.
+
+Article 4. DELAY AND LIQUIDATED DAMAGES
+4.1 If Subcontractor fails to achieve any milestone completion date as defined in the project schedule, Subcontractor shall pay liquidated damages at the rate of INR 50,000 per day of delay for each milestone, capped at a maximum of 10% of the total contract price.
+4.2 Liquidated damages shall be directly deducted from the Subcontractors running account bills or retention money, at the sole option of General Contractor. These liquidated damages represent a genuine pre-estimate of the probable loss and are not a penalty or forfeiture.
+4.3 Subcontractor shall not be liable for delays directly caused by Force Majeure events as defined in Article 10 of this Agreement, provided Subcontractor provides written notification within 48 hours of the occurrence of such event.
+
+Article 5. QUALITY AND WORKMANSHIP
+5.1 All materials supplied and work executed by the Subcontractor shall comply with the latest editions of the relevant Indian Standards (IS Codes), project specifications, and industry best practices.
+5.2 Subcontractor shall maintain a Quality Control Plan and shall permit the General Contractor and the Project Architect to inspect works at any stage of execution.
+5.3 Any work or materials found to be defective or not conforming to the specifications shall be immediately removed and replaced by the Subcontractor at its own cost.
+
+Article 6. DEFECTS LIABILITY AND WARRANTY
+6.1 Subcontractor warrants all workmanship and materials furnished under this Agreement for a defects liability period of twenty-four (24) months following the date of the final project acceptance certificate.
+6.2 During the defects liability period, Subcontractor shall rectify any defects attributable to poor workmanship, faulty materials, or non-compliance with specifications at its own cost within 14 calendar days of receiving written notice from the General Contractor.
+6.3 Failure to rectify defects within the stipulated period shall entitle the General Contractor to engage alternative contractors to perform the remedial work, and all such costs shall be recovered from the Subcontractors retention money or performance guarantee.
+
+Article 7. INDEMNIFICATION AND HOLD HARMLESS
+7.1 Subcontractor shall indemnify, defend, and hold harmless General Contractor, the Project Owner, and their respective officers, directors, employees, and agents from and against any and all claims, demands, suits, damages, losses, costs, and expenses (including legal fees) arising out of or resulting from the performance of the Work under this Agreement, regardless of whether caused in part by General Contractor or third parties.
+7.2 This indemnification obligation shall survive the completion or termination of this Agreement.
+7.3 Subcontractor shall maintain adequate Contractors All Risk (CAR) insurance and Third Party Liability insurance for the duration of the project.
+
+Article 8. TERMINATION
+8.1 General Contractor may terminate this Agreement for convenience upon providing seven (7) days written notice to the Subcontractor. In such event, Subcontractor shall be entitled to payment for work satisfactorily completed up to the date of termination, less any amounts previously paid and any valid claims of General Contractor.
+8.2 General Contractor may terminate this Agreement immediately for cause if the Subcontractor: (a) becomes insolvent or bankrupt; (b) abandons the work for more than 7 consecutive days; (c) persistently fails to maintain adequate progress; or (d) commits a material breach of any term of this Agreement.
+8.3 Subcontractor may not terminate this Agreement for any reason prior to project completion without the written consent of the General Contractor.
+
+Article 9. SAFETY AND COMPLIANCE
+9.1 Subcontractor shall comply with all applicable laws, regulations, building codes, and safety standards, including but not limited to the Building and Other Construction Workers (BOCW) Act, 1996.
+9.2 Subcontractor shall maintain a comprehensive site safety plan and shall provide all necessary personal protective equipment (PPE) to its workers.
+9.3 Any accidents, injuries, or safety violations shall be reported to the General Contractor within 24 hours of occurrence.
+
+Article 10. FORCE MAJEURE
+10.1 Neither party shall be liable for delays or failures in performance caused by events beyond the reasonable control of the affected party, including but not limited to: natural disasters (earthquake, flood, cyclone), epidemic or pandemic, war, civil unrest, government-imposed lockdowns, strikes (except those limited to the Subcontractors own workforce), or acts of terrorism.
+10.2 The party claiming Force Majeure shall provide written notice within 48 hours of the occurrence and shall use reasonable efforts to mitigate the impact of such event.
+10.3 If a Force Majeure event continues for more than 90 consecutive days, either party may terminate this Agreement upon 15 days written notice without liability for damages.
+
+Article 11. DISPUTE RESOLUTION
+11.1 All disputes arising out of or relating to this Agreement shall first be attempted to be resolved through amicable negotiation between the authorized representatives of both parties within 30 calendar days.
+11.2 If the dispute is not resolved through negotiation, it shall be referred to a sole arbitrator mutually agreed upon by both parties, failing which the arbitrator shall be appointed by the President of the Indian Council of Arbitration. The arbitration shall be conducted under the Arbitration and Conciliation Act, 1996, as amended.
+11.3 The seat and venue of arbitration shall be Pune, Maharashtra. The language of arbitration shall be English.
+11.4 The arbitration award shall be final and binding on both parties.
+
+Article 12. GOVERNING LAW
+12.1 This Agreement shall be governed by and construed in accordance with the laws of India.
+12.2 Subject to Article 11 (Dispute Resolution), the courts in Pune, Maharashtra shall have exclusive jurisdiction over any matters not covered by the arbitration clause.
+
+Article 13. ASSIGNMENT
+13.1 Neither party shall assign or transfer this Agreement or any rights or obligations hereunder without the prior written consent of the other party, except that General Contractor may assign this Agreement to the Project Owner or its affiliates without Subcontractors consent.
+
+Article 14. GENERAL PROVISIONS
+14.1 This Agreement, together with all Schedules and Annexures, constitutes the entire agreement between the parties.
+14.2 No amendment or modification of this Agreement shall be valid unless made in writing and signed by authorized representatives of both parties.
+14.3 If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+GENERAL CONTRACTOR: BuildNation Infrastructure Limited
+Authorized Signatory: ____________________
+Name: Vikram Malhotra
+Designation: Vice President - Projects
+Date: October 12, 2026
+
+SUBCONTRACTOR: PrecisionBuild Engineering Works
+Authorized Signatory: ____________________
+Name: Suresh Patil
+Designation: Managing Partner
+Date: October 12, 2026
